@@ -1,0 +1,133 @@
+body, html {
+	background-color: #fdfdfd;
+	font-family: 'Lucida Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #00c;
+}
+a:focus {
+	outline: none;
+}
+strong {
+	font-weight: bold;
+}
+
+.head {
+	padding-top: 30px;
+	padding-bottom: 15px;
+	background: #fdfdfd;
+}
+h1 {
+	margin: 0 auto;
+	width: 900px;
+}
+h1 a {
+	display: block;
+	height: 90px;
+	width: 433px;
+	margin: 2em auto;
+	background: url('/assets/logo.png') no-repeat;
+}
+h1 a span {
+	display: none;
+}
+
+.navigation {
+	height: 34px;
+	background: url('/images/navigation_bg.png') repeat-x;
+	border-bottom: 1px solid #aaa;
+}
+.navigation ul {
+	overflow: hidden;
+	border-left: 1px solid #2e70a0;
+	margin: 0 auto;
+	width: 900px;
+}
+.navigation li {
+	float: left;
+	display: block;
+}
+.navigation li a {
+	color: #fff;
+	height: 27px;
+	padding-top: 7px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 116%;
+	font-weight: bold;
+	display: block;
+	border-right: 1px solid #2e70a0;
+	min-width: 50px;
+	text-align: center;
+}
+.navigation li a:hover {
+	color: #e0e0e0;
+}
+
+.content-container {
+	background-color: #fdfdfd;
+	padding-top: 2em;
+	font-size: 108%;
+}
+.content-container label {
+	display: block;
+	margin-top: .3em;
+	font-size: 85%;
+}
+.content-container input {
+	margin-top: .2em;
+}
+.content-container .hint {
+	color: #555;
+}
+.content {
+	width: 900px;
+	min-height: 350px;
+	margin: 0 auto;
+}
+.content p {
+	margin-bottom: .5em;
+}
+
+.content h2 {
+	font-size: 138.5%;
+	letter-spacing: 0.02em;
+}
+.content h3 {
+	font-size: 116%;
+}
+.content h2,
+.content h3 {
+	font-weight: bold;
+	margin-bottom: .8em;
+}
+.content h2 .navigation-parent {
+	color: #333;
+	font-size: 90%;
+}
+
+.footer, .copyright {
+	text-align: center;
+}
+.footer {
+	padding-top: 10px;
+	font-size: 90%;
+	color: #666;
+}
+.footer a {
+	color: #666;
+}
+.copyright {
+	padding-top: 8px;
+	padding-bottom: 15px;
+	font-size: 80%;
+	color: #999;
+	border-top: 1px solid #ddd;
+	width: 540px;
+	margin: 0 auto;
+}
+.copyright a {
+	color: #888;
+}

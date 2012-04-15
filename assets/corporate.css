@@ -1,0 +1,108 @@
+.content.index {
+	margin-top: 15px;
+}
+.content.index h1 {
+	font-size: 140%;
+	color: #3d3d3d;
+	margin: -2.5em 0 2em 0;
+	text-align: center;
+	font-weight: bold;
+}
+.content.index .feature-container {
+	width: 540px;
+	overflow: hidden;
+	border: 1px solid #bbb;
+	margin: 0 auto;
+	-webkit-border-radius: 5px;
+}
+.content.index .feature {
+	float: left;
+	min-height: 120px;
+}
+.content.index .feature li {
+	list-style-type: disc;
+  margin-left: 20px;
+}
+.content.index .feature p {
+	margin-top: .7em;
+}
+.content.index .feature p.hint {
+	font-size: 90%;
+	color: #666;
+}
+.content.index .feature.databases {
+	float: left;
+	padding: 10px;
+	width: 230px;
+	border-right: 1px solid #eee;
+}
+.content.index .feature.databases ul {
+	overflow: hidden;
+}
+.content.index .feature.databases li {
+	list-style-type: none;
+	margin-left: 0;
+	float: left;
+	margin: 10px;
+}
+.content.index .feature.databases li span { display: none; }
+.content.index .feature.databases li.postgresql {
+	background-image: url('/images/databases/postgresql_big.gif');
+	width: 95px;
+	height: 47px;
+}
+.content.index .feature.databases li.mysql {
+	background-image: url('/images/databases/mysql_big.png');
+	width: 91px;
+	height: 47px;
+}
+.content.index .feature.databases li.memcached {
+	background-image: url('/images/databases/memcached_big.png');
+	width: 55px;
+	height: 42px;
+}
+.content.index .feature.databases li.mongodb {
+	background-image: url('/images/databases/mongodb_big.png');
+	width: 131px;
+	height: 35px;
+}
+.content.index .feature.databases li.redis {
+	background-image: url('/images/databases/redis_big.png');
+	width: 120px;
+	height: 40px;
+}
+.content.index .feature.databases li.php {
+	background-image: url('/images/languages/php.png');
+	width: 56px;
+	height: 42px;
+}
+.content.index .feature.databases li.ruby {
+	background-image: url('/images/languages/ruby.png');
+	width: 30px;
+	height: 42px;
+}
+.content.index .feature.signup {
+	float: right;
+	margin-right: 0;
+	padding: 10px;
+}
+.content.index .feature.signup form {
+	font-size: 116%;
+}
+.content.index .feature.signup input[type=email] {
+	padding: 3px 2px;
+}
+.content.index .feature.signup .info {
+	color: #333;
+	margin-bottom: -.2em;
+}
+.content.index h3.tagline {
+	font-size: 108%;
+	color: #222;
+	margin-top: 2.5em;
+	text-align: center;
+	color: #3d3d3d;
+	font-weight: normal;
+	line-height: 1.5em;
+	letter-spacing: -0.1em;
+}
